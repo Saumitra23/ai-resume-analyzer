@@ -1,27 +1,62 @@
-# Welcome to React Router!
+# AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An intelligent web application that leverages AI to analyze resumes and provide comprehensive insights, feedback, and recommendations. Built with React Router and modern web technologies.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 📋 Overview
 
-## Features
+The AI Resume Analyzer is a powerful tool designed to help job seekers optimize their resumes and recruiters evaluate candidates more efficiently. Using advanced AI algorithms, the application analyzes resume content, structure, and formatting to provide actionable feedback.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## ✨ Key Features
 
-## Getting Started
+- 🤖 **AI-Powered Analysis**: Utilizes artificial intelligence to evaluate resume content, keywords, and structure
+- 📊 **Comprehensive Scoring**: Provides detailed scoring across multiple dimensions (content, formatting, keywords, ATS compatibility)
+- 🎯 **Job Match Analysis**: Compares resumes against job descriptions to assess candidate fit
+- 💡 **Smart Recommendations**: Offers personalized suggestions for resume improvement
+- 📝 **Keyword Optimization**: Identifies missing industry-relevant keywords and suggests additions
+- 🔍 **ATS Compatibility Check**: Ensures resumes are optimized for Applicant Tracking Systems
+- 📄 **Multiple Format Support**: Accepts PDF, DOCX, and TXT resume formats
+- 🚀 **Real-time Processing**: Fast analysis with immediate results
+- 🎨 **Modern UI**: Clean, intuitive interface built with TailwindCSS
+- 🔒 **Privacy-Focused**: Secure document handling with no data retention
+
+## 🛠️ Technology Stack
+
+- 🚀 **React Router** - Server-side rendering and routing
+- ⚡️ **Vite** - Lightning-fast build tool with HMR
+- 🔒 **TypeScript** - Type-safe development
+- 🎉 **TailwindCSS** - Modern, utility-first styling
+- 🤖 **AI Integration** - Advanced natural language processing
+- 📦 **Optimized Bundling** - Production-ready asset optimization
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
 
 ### Installation
 
-Install the dependencies:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/ai-resume-analyzer.git
+cd ai-resume-analyzer
+```
+
+2. Install the dependencies:
 
 ```bash
 npm install
+```
+
+3. Set up environment variables (create a `.env` file):
+
+```bash
+# Add your AI API keys and configuration
+AI_API_KEY=your_api_key_here
+# Add other required environment variables
 ```
 
 ### Development
@@ -34,7 +69,15 @@ npm run dev
 
 Your application will be available at `http://localhost:5173`.
 
-## Building for Production
+## 📱 Usage
+
+1. **Upload Resume**: Navigate to the application and upload your resume (PDF, DOCX, or TXT)
+2. **Optional Job Description**: Paste a job description for targeted analysis
+3. **Analyze**: Click the analyze button to start the AI-powered evaluation
+4. **Review Results**: Get detailed scores, insights, and recommendations
+5. **Download Report**: Export the analysis report for future reference
+
+## 🏗️ Building for Production
 
 Create a production build:
 
@@ -49,10 +92,10 @@ npm run build
 To build and run using Docker:
 
 ```bash
-docker build -t my-app .
+docker build -t ai-resume-analyzer .
 
 # Run the container
-docker run -p 3000:3000 my-app
+docker run -p 3000:3000 ai-resume-analyzer
 ```
 
 The containerized application can be deployed to any platform that supports Docker, including:
@@ -84,4 +127,30 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 
 ---
 
-Built with ❤️ using React Router.
+## 📚 Resources
+
+- 📖 [React Router Documentation](https://reactrouter.com/)
+- 🎨 [TailwindCSS Documentation](https://tailwindcss.com/)
+- ⚡️ [Vite Documentation](https://vitejs.dev/)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Built with ❤️ using React Router
+- Powered by advanced AI technologies
+- Inspired by the need to help job seekers succeed
+
+## 📧 Contact
+
+For questions, feedback, or support, please open an issue in the GitHub repository.
+
+---
+
+**Note**: This is an active development project. Features and capabilities are continuously being enhanced.
